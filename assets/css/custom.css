@@ -70,12 +70,14 @@ header {
 	display: table-cell;
 	width: 1%;
 	float: none;
+	border-left: 1px solid #303b42;
+	border-right: 1px solid rgba(0,0,0,.1);
 }
 .navbar .nav li a {
 	font-weight: bold;
 	text-align: center;
-	border-left: 1px solid #303b42;
-	border-right: 1px solid rgba(0,0,0,.1);
+/*	border-left: 1px solid #303b42;
+	border-right: 1px solid rgba(0,0,0,.1);*/
 }
 .navbar .nav li:first-child a {
 	border-left: 0;
@@ -106,7 +108,6 @@ header {
 	color: #2c3945;
 	text-decoration: none;
 	background-color: #7a95a7; /* fallback color, place your own */
-
 	background-image: -moz-linear-gradient(top, #455b6d, #9fbfd0);
 	background-image: -ms-linear-gradient(top, #455b6d, #9fbfd0);
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#455b6d), to(#9fbfd0));
@@ -296,7 +297,15 @@ hr {
 	}
 
 
-
+@media (max-width: 1199px) and (min-width:980px){
+	.navbar .nav li {
+		vertical-align:middle;
+		font-size: 13px;
+	}
+	.navbar .nav li a{
+		padding: 10px 5px 10px 5px;
+	}
+}
 
 
 
