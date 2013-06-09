@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /html_form_send.php
+Disallow: /paymentrecieved.html
+
